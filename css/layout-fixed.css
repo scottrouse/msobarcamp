@@ -25,7 +25,7 @@ body {
 }
 
 #page-wrapper,
-.region-page-closure {
+.region-page-closure, #footer .section {
   /*
    * If you want to make the page a fixed width and centered in the viewport,
    * this is the standards-compliant way to do that. See also the ie6.css file
@@ -84,9 +84,9 @@ body {
 }
 
 .sidebar-second #content {
-  width: 760px;
+  width: 660px;
   margin-left: 0; /* LTR */
-  margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
+  margin-right: -660px; /* LTR */ /* Negative value of #content's width + left margin. */
 }
 
 .two-sidebars #content {
@@ -155,8 +155,8 @@ body {
  */
 .region-sidebar-second {
   float: left; /* LTR */
-  width: 200px;
-  margin-left: 760px; /* LTR */ /* Width of content + sidebar-first. */
+  width: 300px;
+  margin-left: 660px; /* LTR */ /* Width of content + sidebar-first. */
   margin-right: -960px; /* LTR */ /* Negative value of .region-sidebar-second's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-second .section. */
 }
@@ -170,9 +170,12 @@ body {
  * Footer
  */
 #footer {
+	background-color: #70AE3C;
+	border-top: 2px solid #FFFFFF;
 }
 
 #footer .section {
+position: relative;
 }
 
 /*
