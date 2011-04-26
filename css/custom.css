@@ -271,3 +271,51 @@ li#individual {
 a#flickr_www {
 	display: none;
 }
+
+
+
+
+
+
+#node-3 .uc-price-product {
+	display: none;
+}
+
+
+#block-views-attendee_photo-block_1 img {
+	max-height: 85px;
+	max-width: 85px;
+}
+
+
+
+
+
+
+
+.page-community .view-id-attendees td {
+	width: 240px;
+	vertical-align: top;
+}
+
+
+#block-views-Sponsors-block_8 td.col-1 {
+	padding-right: 30px;
+}
+
+#block-views-Sponsors-block_8 td.col-3 {
+	padding-left: 30px;
+}
+
+#block-views-attendee_photo-block_1 .view-footer p {
+	float: right;
+}
+
+#block-views-attendee_photo-block_1 .view-footer a {
+	color: #FFFFFF;
+}
+
+
+#block-block-4 {
+	clear: both;
+}
